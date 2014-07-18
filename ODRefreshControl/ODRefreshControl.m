@@ -38,6 +38,7 @@
 
 @synthesize refreshing = _refreshing;
 @synthesize tintColor = _tintColor;
+@synthesize arrayColor = _arrayColor;
 
 @synthesize scrollView = _scrollView;
 @synthesize originalContentInset = _originalContentInset;
@@ -131,6 +132,12 @@ static inline CGFloat lerp(CGFloat a, CGFloat b, CGFloat p)
 {
     _tintColor = tintColor;
     _shapeLayer.fillColor = [_tintColor CGColor];
+}
+
+- (void)setArrayColor:(UIColor *)arrayColor
+{
+    _arrayColor = arrayColor;
+    _arrayLayer.fillColor = [_arrayColor CGColor];
 }
 
 - (void)setActivityIndicatorViewStyle:(UIActivityIndicatorViewStyle)activityIndicatorViewStyle
