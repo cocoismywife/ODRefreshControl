@@ -134,10 +134,10 @@ static inline CGFloat lerp(CGFloat a, CGFloat b, CGFloat p)
     _shapeLayer.fillColor = [_tintColor CGColor];
 }
 
-- (void)setArrayColor:(UIColor *)arrayColor
+- (void)setArrowColor:(UIColor *)arrowColor
 {
-    _arrayColor = arrayColor;
-    _arrayLayer.fillColor = [_arrayColor CGColor];
+    _arrowColor = arrowColor;
+    _arrowLayer.fillColor = [_arrowColor CGColor];
 }
 
 - (void)setActivityIndicatorViewStyle:(UIActivityIndicatorViewStyle)activityIndicatorViewStyle
