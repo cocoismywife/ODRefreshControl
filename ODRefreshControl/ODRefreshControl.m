@@ -38,7 +38,7 @@
 
 @synthesize refreshing = _refreshing;
 @synthesize tintColor = _tintColor;
-@synthesize arrayColor = _arrayColor;
+@synthesize arrowColor = _arrowColor;
 
 @synthesize scrollView = _scrollView;
 @synthesize originalContentInset = _originalContentInset;
